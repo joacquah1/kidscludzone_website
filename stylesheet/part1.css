@@ -1,0 +1,109 @@
+.intro{
+    display: flex;
+    margin-top: 0.5rem; 
+}
+.sect1_left,.sect1_right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+
+
+.sect1_right{
+    height: 10.9rem;
+    background-image: url("../assets/themes-poster.webp.png");
+    background-size: 11rem 11rem;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: bottom;   
+}
+
+.social_media_icons{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.3rem;
+    text-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 63%;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    border-radius: 2rem;
+    gap: 0.3rem;
+    margin-bottom: -0.8rem;
+   
+}
+
+.sm_icon> img{
+    width: 100%;
+}
+.sect1_heading{
+    font-size: 0.76rem;
+    text-wrap: nowrap;  
+    
+}
+
+.sect1_text,.motto_right,.student_frame_text{
+    font-size: 0.36rem;
+    margin-top: -0.4rem;
+    margin-bottom: 0.8rem;
+    text-wrap: nowrap;
+    line-height: 0.55rem;
+}
+.sect1_heading span{
+    font-palette: var(--btn-color);
+}
+
+.motto,.student_frame{
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding: 0.15rem 1.7rem 0.15rem 1.7rem;
+    
+}
+.motto_container,.frame_container{
+    display: flex;
+    justify-content: space-between;
+}
+.motto_right,.student_frame_right{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#5F6368;
+    text-wrap: nowrap;
+}
+.motto_left, .sub_text{
+    font-size: 0.7rem;
+    text-wrap: nowrap;
+}
+.student_frame{
+    background-color:  #1E1E1E;
+    color: #fff;
+    padding: 0.15rem 1.7rem 0.7rem 1.7rem;
+    margin-top: 0.9rem;
+}
+.student_frame_text{
+    font-size: 0.36rem;
+   
+}
+.sub_text{
+    margin-bottom: -0.5rem;
+}
+.student_frame .get_Started.btn{
+    background-image: none;
+    border: 0.006rem solid #ffffff;
+    border-radius: 4rem;
+    margin-top: -0.5rem;
+    width: 3.6rem;
+    height: 0.9rem;
+    
+
+}
+.student_frame_right{
+    width: 12.5rem;
+}
+.student_frame_right>img{
+    width: 100%;
+}
