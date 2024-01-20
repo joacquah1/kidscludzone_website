@@ -57,7 +57,10 @@
     font-size:0.32rem ;
 }
 .sect1_heading span{
-    font-palette: var(--btn-color);
+   background-image: var(--btn-color);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
 }
 
 .motto,.student_frame{
