@@ -1,0 +1,66 @@
+.box1_container{
+    background-color: #FEF7E0;
+    display: flex;
+    gap: 1rem;
+    padding: 0.9rem;
+    border-radius: 0.4rem;
+    justify-content:space-between;
+    margin-bottom: 0.8rem;
+    
+}
+
+.box1_container>div{
+    width: 40%;
+    height: 9.4rem;
+    border-radius: 0.5rem;
+}
+.box1_container>div:nth-child(2){
+    background-image: url("https://media.discordapp.net/attachments/1197087958130491402/1197276645422276748/comic-magazines.png?ex=65baadc4&is=65a838c4&hm=0130b1b93d8bdf49120fc4e9533cc03d5e9b3e7c4c84e3aa56ebff81bde63627&=&format=webp&quality=lossless&width=475&height=366");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    background-color: #fcfcfc;
+}
+.box1_left >div:nth-child(1){
+    font-size: 0.5rem;
+    text-wrap: nowrap;
+    margin-bottom:0.1rem ;
+}
+.box1_left >div:nth-child(3),.team_frame .get_Started{
+    background-image: none;
+    background-color: #202020;
+}
+.box1_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box1_left >div.sect1_text{
+    font-size: 0.4rem;
+    color: #1E1E1E;
+}
+.sect4 > .box1_container:nth-child(2){
+    flex-direction: row-reverse;
+    background-color: #EDEFFF;
+}
+.sect4 > .box1_container:nth-child(2)>div:nth-child(2){
+    background-image: url("../assets/gallary_cards/educational-books\ \(1\).png");
+}
+.sect4 > .box1_container:nth-child(3){
+    background-color: #F6ECFF ;
+}
+.sect4 > .box1_container:nth-child(3)>div:nth-child(2){
+    background-image: url("../assets/gallary_cards/flash-cards.png");
+}
+.sect4  .team_frame.student_frame{
+    background-color:#FFFAEB ;
+    color: #000; 
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 0.7rem;
+    
+}
+.team_frame .team_frame_text{
+    margin-top: -0.7rem;
+}

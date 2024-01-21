@@ -1,6 +1,8 @@
 @import url("./navbar.css");
 @import url("./part1_introduction.css");
 @import url("./part2_gallary_cards.css");
+@import url("./merchandise_categories_section.css");
+@import url("./part4_educational_and_skill_development.css");
 :root{
     --btn-color:linear-gradient(122.15deg, #F9C8BF 3.72%, #F87C61 19.56%, #AB26F8 84.21%, #D75EFC 100.63%);
 }
@@ -14,70 +16,5 @@ body{
 main{
     padding: 0rem 1rem 0rem 1rem;
 }
-.sect3{
-    background-color: rgba(0, 255, 255, 0.616);
-}
-.sect3>div:nth-child(1){
-    font-size: 0.5rem;
-    text-wrap: nowrap;
-}
-.sect3>.sect3_btns>div{
-    font-size: 0.45rem;
-    display: flex;
-    gap: 0.3rem; 
-    margin-bottom: 0.3rem;  
-}
-.sect3>.sect3_btns>div>div{
-    background-color: #AB26F8;
-    color: #444746;
-    height: 1.5rem;
-    width: 4.5rem;
-    text-wrap: nowrap;
-    border-radius: 0.39rem;
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    padding-left: 0.3rem;
-    position: relative;
-}
-.sect3>.sect3_btns>div>div::after{
-    content: '';
-    display: flex;
-    background-image: url("../assets/arrow.png");
-    position: absolute;
-    background-size:0.5rem 0.3rem;
-    background-position:center;
-    background-repeat: no-repeat;
-    right: -1.3rem;
-    width: 4rem;
-    height: 2rem;  
-}
-.sect3>.sect3_btns>div:nth-child(1)>div:nth-child(1){
-    background-color:#D3E3FD ;
-}
-.sect3>.sect3_btns>div:nth-child(1)>div:nth-child(2){
-    background-color:#E3E3E3 ;
-}
-.sect3>.sect3_btns>div:nth-child(1)>div:nth-child(3){
-    background-color:#C2E7FF ;
-}
-.sect3>.sect3_btns>div:nth-child(1)>div:nth-child(4){
-    background-color:#C4EED0 ;
-}
-.sect3>.sect3_btns>div:nth-child(2)>div:nth-child(1){
-    background-color:#D5D1FF ;
-}
-.sect3>.sect3_btns>div:nth-child(2)>div:nth-child(2){
-    background-color:#FDE3FF ;
-}
-.sect3>.sect3_btns>div:nth-child(2)>div:nth-child(3){
-    background-color:#EEFFBE ;
-}
-.sect3>.sect3_btns>div:nth-child(2)>div:nth-child(4){
-    background-color:#FFE1E1 ;
-}
-
-
-
 
 
