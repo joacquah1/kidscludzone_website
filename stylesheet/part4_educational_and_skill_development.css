@@ -1,7 +1,7 @@
 .box1_container{
     background-color: #FEF7E0;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     padding: 0.9rem;
     border-radius: 0.4rem;
     justify-content:space-between;
@@ -22,7 +22,7 @@
     background-color: #fcfcfc;
 }
 .box1_left >div:nth-child(1){
-    font-size: 0.5rem;
+    font-size: 0.4rem;
     text-wrap: nowrap;
     margin-bottom:0.1rem ;
 }
@@ -59,8 +59,12 @@
    justify-content: center;
    align-items: center;
    padding-top: 0.7rem;
+   gap: 2rem;
     
 }
 .team_frame .team_frame_text{
     margin-top: -0.7rem;
+}
+.team_frame_right.student_frame_right{
+    width: 10rem;
 }
