@@ -1,0 +1,97 @@
+footer{
+    background-color: #ffffffe1;
+    margin-top: 2rem;
+    padding: 2rem; 
+}
+footer > div{
+    display: flex;
+    gap: 0.3rem;
+    border-bottom: 0.01rem solid gray;
+    
+}
+footer > div >div{
+    width: 33.33%;
+    background-color:transparent;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem;
+    margin-bottom: 0.5rem;
+    
+}
+footer > div >div:nth-child(1){
+    justify-content: space-between;
+}
+
+footer .social_media_icons{
+    width: 90%;
+    margin-bottom: 0.02rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem;
+}
+footer .logo_area >img{
+    width: 4.6rem;
+}
+footer > div >div:nth-child(2)>div:nth-child(1)~div{
+    margin-top: 0.15rem;
+    justify-content: space-evenly;
+    margin-top: 0.3rem;
+    font-size: 0.44rem;
+    margin-bottom: 0rem;
+}
+footer > div >div:nth-child(3), footer > div >div:nth-child(2),footer > div >div:nth-child(4){
+    font-size: 0.5rem;
+    width: 3.3rem;
+    text-wrap: nowrap;
+}
+footer > div >div:nth-child(4){
+    width: 33.33%;
+}
+footer > div >div:nth-child(2)>div:nth-child(1),footer > div >div:nth-child(3)>div:nth-child(1),footer > div >div:nth-child(4)>div:nth-child(1){
+    margin-bottom: -0.5rem;
+    margin-top: -0.4rem;
+}
+footer > div >div:nth-child(3)>div:nth-child(1)~div{
+    margin-top: 0.3rem;
+    font-size: 0.44rem;
+    margin-bottom: 0rem;
+}
+footer > div >div:nth-child(4) >div:nth-child(2){
+   
+    display: flex;
+    align-items: center;
+    font-size: 0.4rem;
+    color: black;
+    padding:0.05rem 0.5rem 0.05rem 0.3rem;
+    border-radius: 0.2rem;
+    height: 1.5rem;
+    border: 0.1rem solid gray;
+}
+footer > div >div:nth-child(4) >div:nth-child(2):hover{
+    outline: 0.1rem solid rgb(238, 36, 238);
+    color: #AB26F8;
+}
+footer > div >div:nth-child(4) >div:nth-child(2) span:active{
+    color: rgb(255, 0, 21) ;
+}
+footer > div >div:nth-child(4) input{
+    width: 100%;
+    height: 70%;
+    font-size: inherit;
+    color: inherit;
+    border: none;
+    background-color: transparent;
+}
+footer > div >div:nth-child(4) input:hover{
+    border: none;
+    outline: none;
+}
+
+footer > div >div:nth-child(4) >div:nth-child(3){
+    text-wrap: nowrap;
+    font-size: 0.32rem;
+    line-height: 0.5rem;
+    margin-top: 0.4rem;
+}

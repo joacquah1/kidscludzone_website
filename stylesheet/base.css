@@ -1,0 +1,28 @@
+:root{
+    --btn-color:linear-gradient(122.15deg, #F9C8BF 3.72%, #F87C61 19.56%, #AB26F8 84.21%, #D75EFC 100.63%);
+    --btn-color-hover:linear-gradient(122.15deg,   #D75EFC 3.72%, #AB26F8 19.56%, #F87C61 84.21%, #F9C8BF 100.63%);
+    --primary-btn-hover-color:#000;
+    --primary-btn-hover-backgrnd-color:#fff;
+
+}
+
+
+body{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #e6dddd6e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main{
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+
+.primary_btn:hover{
+    background-color: var(--primary-btn-hover-backgrnd-color);
+    color: var(--primary-btn-hover-color);
+}

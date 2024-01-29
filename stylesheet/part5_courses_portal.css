@@ -1,0 +1,139 @@
+.sect5{
+    margin-top: 1.3rem;
+}
+.sect5 .courses_portal{
+    font-size: 0.542rem;
+}
+.sect5 .courses_portal_text{
+    font-size: 0.35rem;
+    margin-top: -0.4rem;
+}
+.sect5 .courses_portal span{
+    color: #59C878;
+}
+
+.buildapp_top_section{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.buildapp_container_upperSection{
+    display: flex;
+    gap: 0.4rem;
+}
+.buildapp_container_upperSection >div{
+
+    background-color: #fff;
+    width: 25%;
+    height: 6rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+    flex-grow: 1;
+    
+}
+.buildapp_container_upperSection >div>.img_container{
+    background-color: #e6e2e78a;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.4rem;
+    margin-top: 0.2rem;
+    
+}
+.buildapp_container_upperSection >div>.img_container>img{
+    width: 100%;
+}
+.buildapp_text_area{
+    font-size: 0.24rem;
+    text-wrap: nowrap;
+}
+.buildapp_text_area >div{
+    font-size:0.31rem;
+    line-height: 0.5rem;
+    margin-top: -0.18rem ;
+}
+.buildapp_top_section >div:nth-child(1){
+    width: 1rem;
+    height:1rem;
+    
+}
+.buildapp_top_section >div:nth-child(1)>img, .domore_bemore_section_img > img{
+    width: 100%;
+}
+
+.domore_bemore_section{
+    margin-top: 1.5rem;
+    display: flex;
+    gap:1rem;
+}
+
+.domore_bemore_left,.domore_bemore_right{
+    background-color: #1E1E1E;
+    width: 50%;
+
+    color: #fff;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+  
+}
+.domore_bemore_text{
+    padding: 0.9rem 1.4rem;
+   
+}
+.domore_bemore_left >div>div:nth-child(1){
+    font-size: 0.4rem;
+    
+
+}
+.domore_bemore_left >div>div:nth-child(2){
+    font-size:0.368rem;
+    
+}
+.domore_bemore_left .domore_bemore_section_img{
+    background-color: #f3eaeae7;
+    width: 100%;
+    height: 7.5rem;
+    margin-top: -0.5rem;
+    border-radius:  0 0 0.4rem 0.4rem ;
+}
+.domore_bemore_section_img > img{
+    width: 100%;
+    height: 100%;
+    border-radius:  0 0 0.4rem 0.4rem ;
+}
+.domore_bemore_right{
+    color: #000000;
+    background-color: #fff;
+}
+
+.joinTeam_section{
+    background-color: #1E1E1E;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    text-wrap: nowrap;
+    padding: 0.5rem;
+}
+
+.joinTeam_section>div:nth-child(1){
+    font-size: 0.46rem;
+    text-align: center;
+}
+.joinTeam_section>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.38rem;
+    gap: 2rem;
+    margin-top: -0.1rem;
+    padding-left: 1.8rem;
+    padding-right: 3rem;
+}
+.joinTeam_section>div:nth-child(2)>div{
+    width: 50%;
+    flex-grow: 1;
+}

@@ -1,20 +1,8 @@
+@import url("./base.css");
 @import url("./navbar.css");
 @import url("./part1_introduction.css");
 @import url("./part2_gallary_cards.css");
 @import url("./merchandise_categories_section.css");
 @import url("./part4_educational_and_skill_development.css");
-:root{
-    --btn-color:linear-gradient(122.15deg, #F9C8BF 3.72%, #F87C61 19.56%, #AB26F8 84.21%, #D75EFC 100.63%);
-}
-body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: #e6dddd6e;
-    font-family: Arial, Helvetica, sans-serif;
-}
-main{
-    padding: 0rem 1rem 0rem 1rem;
-}
-
-
+@import url("./part5_courses_portal.css");
+@import url("./part6_footer.css");
