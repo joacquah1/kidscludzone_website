@@ -127,13 +127,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.38rem;
-    gap: 2rem;
+    font-size: 0.3rem;
+    gap: 1rem;
     margin-top: -0.1rem;
-    padding-left: 1.8rem;
-    padding-right: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    text-align: start;
+    margin-bottom: 0.4rem;
+
+}
+.joinTeam_section>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+   
+    
 }
 .joinTeam_section>div:nth-child(2)>div{
-    width: 50%;
+    width:50%;
     flex-grow: 1;
 }

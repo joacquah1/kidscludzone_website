@@ -53,21 +53,34 @@
 .sect4 > .box1_container:nth-child(3)>div:nth-child(2){
     background-image: url("../assets/gallary_cards/flash-cards.png");
 }
-.sect4  .team_frame.student_frame{
+
+
+.sect4  .team_frame{
     background-color:#FFFAEB ;
     color: #000; 
     display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 0.15rem 1.7rem 0.7rem 1.7rem;
-   gap: 2.95rem;   
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+   padding: 0.7rem 1.7rem 0.7rem 1.7rem;
 }
-.team_frame .team_frame_text{
-    margin-top: -0.7rem;
+
+
+.sect4 .team_frame_containers{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
 }
-.team_frame_right.student_frame_right{
-    width: 10rem; 
+.team_frame_right,.team_frame_left{
+    width: 50%;
+}
+
+.team_frame_right img{
+    width: 100%;
 }
 .sect4 .primary_btn:hover{
     background-color: var(--primary-btn-hover-backgrnd-color);
+} 
+.team_frame .team_frame_text{
+    margin-top: -0.7rem;
 }
