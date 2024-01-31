@@ -23,7 +23,6 @@
 }
 .box1_left >div:nth-child(1){
     font-size: 0.4rem;
-    text-wrap: nowrap;
     margin-bottom:0.1rem ;
 }
 .box1_left >div:nth-child(3),.team_frame .get_Started{
@@ -37,8 +36,9 @@
    
 }
 .box1_left >div.sect1_text{
-    font-size: 0.4rem;
+    font-size: 0.36rem;
     color: #1E1E1E;
+    text-wrap: wrap;
 }
 .sect4 > .box1_container:nth-child(2){
     flex-direction: row-reverse;

@@ -14,7 +14,6 @@
 
 .buildapp_top_section{
     display: flex;
-    align-items: center;
     gap: 0.5rem;
 }
 .buildapp_container_upperSection{
@@ -25,7 +24,6 @@
 
     background-color: #fff;
     width: 25%;
-    height: 6rem;
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -42,24 +40,32 @@
     border-radius: 0.4rem;
     margin-top: 0.2rem;
     
+    
+    
 }
 .buildapp_container_upperSection >div>.img_container>img{
     width: 100%;
+    height: 100%;
 }
 .buildapp_text_area{
-    font-size: 0.24rem;
-    text-wrap: nowrap;
+    font-size: 0.19rem;
+    /* text-wrap: nowrap; */
 }
 .buildapp_text_area >div{
-    font-size:0.31rem;
-    line-height: 0.5rem;
-    margin-top: -0.18rem ;
+    font-size:0.258rem;
+    line-height: 0.4rem;
+   
 }
 .buildapp_top_section >div:nth-child(1){
-    width: 1rem;
-    height:1rem;
-    
+    width: 1.9rem;
+    height:1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border-radius: 3rem;    
 }
+
 .buildapp_top_section >div:nth-child(1)>img, .domore_bemore_section_img > img{
     width: 100%;
 }
@@ -90,7 +96,7 @@
 
 }
 .domore_bemore_left >div>div:nth-child(2){
-    font-size:0.368rem;
+    font-size:0.33rem;
     
 }
 .domore_bemore_left .domore_bemore_section_img{
@@ -115,7 +121,6 @@
     margin-top: 1.5rem;
     border-radius: 0.5rem;
     color: #fff;
-    text-wrap: nowrap;
     padding: 0.5rem;
 }
 
@@ -123,26 +128,14 @@
     font-size: 0.46rem;
     text-align: center;
 }
-.joinTeam_section>div:nth-child(2){
+.joinTeam_section> .joinTeam_section_text{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.3rem;
-    gap: 1rem;
-    margin-top: -0.1rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    text-align: start;
+    font-size: 0.312rem;
+    gap: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 0.39rem;
+}
+.joinTeam_section> .joinTeam_section_text>div>div{
     margin-bottom: 0.4rem;
-
-}
-.joinTeam_section>div:nth-child(2)>div:nth-child(1){
-    display: flex;
-    flex-direction: column;
-   
-    
-}
-.joinTeam_section>div:nth-child(2)>div{
-    width:50%;
-    flex-grow: 1;
 }
