@@ -22,8 +22,9 @@
     background-color: #fcfcfc;
 }
 .box1_left >div:nth-child(1){
-    font-size: 0.4rem;
+    font-size: 0.38rem;
     margin-bottom:0.1rem ;
+    
 }
 .box1_left >div:nth-child(3),.team_frame .get_Started{
     background-image: none;
